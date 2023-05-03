@@ -41,7 +41,7 @@ gradlePlugin {
     vcsUrl.set("https://github.com/ktorio/ktor")
 
     plugins {
-        create("ktor") {
+        register("ktor") {
             id = "io.ktor.plugin"
             displayName = "Ktor Gradle Plugin"
             implementationClass = "io.ktor.plugin.KtorGradlePlugin"
