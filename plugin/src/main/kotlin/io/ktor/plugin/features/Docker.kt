@@ -16,7 +16,10 @@ import javax.inject.Inject
 enum class JreVersion(val javaVersion: JavaVersion) {
     JRE_1_8(JavaVersion.VERSION_1_8),
     JRE_11(JavaVersion.VERSION_11),
-    JRE_17(JavaVersion.VERSION_17);
+    JRE_17(JavaVersion.VERSION_17),
+    JRE_18(JavaVersion.VERSION_18),
+    JRE_19(JavaVersion.VERSION_19),
+    JRE_20(JavaVersion.VERSION_20);
 
     val majorVersion = javaVersion.majorVersion.toInt()
 }
